@@ -19,6 +19,7 @@ func sendingEmail(ctx context.Context, id int) {
 	}
 }
 
+
 func someCont(){
 	w := sync.WaitGroup{}
 	ctx := context.Background()
