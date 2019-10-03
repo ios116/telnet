@@ -42,5 +42,5 @@ func server() {
 }
 
 func main() {
-   server()
+	server()
 }

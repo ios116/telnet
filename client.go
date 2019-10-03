@@ -13,9 +13,6 @@ import (
 	"time"
 )
 
-
-
-
 // ReadingAndWriter Reading from server and writing to server
 func ReadingAndWriter(ctx context.Context, r io.Reader, w io.Writer) {
 	ch := make(chan string)
